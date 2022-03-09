@@ -1,0 +1,10 @@
+name: private_file_system
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: Custom
+dependencies:
+  - file
+  - media
+  - field_permissions
+  - image

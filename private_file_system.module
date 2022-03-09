@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains private_file_system.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function private_file_system_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the private_file_system module.
+    case 'help.page.private_file_system':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function private_file_system_theme() {
+  return [
+    'private_file_system' => [
+      'render element' => 'children',
+    ],
+  ];
+}

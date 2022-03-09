@@ -1,0 +1,13 @@
+{
+    "name": "private_file_system",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/private_file_system",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/private_file_system",
+        "source": "http://cgit.drupalcode.org/private_file_system",
+    },
+}
